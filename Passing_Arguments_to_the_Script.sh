@@ -1,11 +1,11 @@
 #!/bin/bash
 
 function File {
-	echo $#
+    echo $#
 }
 
 if [ ! $# -lt 1 ]; then
-	File "$*"
+    File "$*"
     exit 0
 fi
 
